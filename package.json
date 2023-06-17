@@ -1,0 +1,23 @@
+{
+  "name": "gitbasics",
+  "version": "1.0.0",
+  "description": "No description",
+  "repository": {
+    "private": true
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "date": "^2.0.2",
+    "fns": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

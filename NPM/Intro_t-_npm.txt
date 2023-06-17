@@ -1,0 +1,20 @@
+*npm = Node Package Manager 
+
+-> It's a module(Third party module) of Node.js that can be imported to your application.
+-> It has lot of packages created by other developers that can be used inside node.js
+-> To get these packages developed by like minded people goto :https://www.npmjs.com 
+  and select the one you are looking for.
+-> You can search and read more about  a module including how to install it and make use of it. 
+->A node.js package cab be installed globally or locally:
+    # globally -> can be called in your CMD 
+    # locally -> inside your application( working directory)
+
+    * How to insall npm package to node.js:globally
+        - npm install <package name> -g , you can even use npm i <package name> -g this way it runs globally to your app
+    *  How to insall npm package to node.js:locally
+        - First you must initialize it to your workinh directory by:
+        - npm init -> it will have questions regarding your project
+        - npm init -y -> will skip all the questions and go ahead and create a package.json file in your project
+        - package.json has all the packages installed in your project
+        - dependancies are also specified in the package.json and they're for production
+        - dev-Dependencies are for dev
